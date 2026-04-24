@@ -9,6 +9,12 @@ recommended action.
 
 ---
 
+## Live Demo
+
+- API Documentation: https://pulse-check-api-odps.onrender.com/docs
+- Health Check: https://pulse-check-api-odps.onrender.com/health
+- GitHub: https://github.com/mizero-adrien/pulse-check-api
+
 ## Table of Contents
 
 - [Architecture Diagram](#architecture-diagram)
