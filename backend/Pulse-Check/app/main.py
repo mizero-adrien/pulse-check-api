@@ -135,6 +135,6 @@ app.include_router(monitors_router)
 app.include_router(api_keys_router)
 
 
-@app.get("/health", tags=["health"], dependencies=[Depends(verify_jwt)])
+@app.get("/health", tags=["health"])
 async def health_check():
     return {"status": "ok", "service": "Pulse-Check API", "version": "1.0.0"}
